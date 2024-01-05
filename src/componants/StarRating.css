@@ -1,0 +1,18 @@
+.star-rating {
+    font-size: 24px;
+    color: #ccc;
+  }
+  
+  .star-rating span {
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .star-rating span:hover,
+  .star-rating span:hover ~ span,
+  .star-rating span.clicked,
+  .star-rating span.clicked ~ span {
+    color: gold;
+  }
+  
